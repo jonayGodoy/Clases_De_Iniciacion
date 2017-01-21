@@ -16,6 +16,8 @@ public class RomanNumeralGeneratorShould {
         assertThat(RomanNumeralGenerator.romanFor(3), is("III"));
         assertThat(RomanNumeralGenerator.romanFor(5), is("V"));
         assertThat(RomanNumeralGenerator.romanFor(7), is("VII"));
+        assertThat(RomanNumeralGenerator.romanFor(10), is("X"));
+        assertThat(RomanNumeralGenerator.romanFor(18), is("XVIII"));
 
 
     }
