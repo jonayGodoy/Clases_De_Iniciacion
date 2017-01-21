@@ -17,7 +17,9 @@ public class RomanNumeralGenerator {
 
     enum RomanToDecimal{
         TEN("X",10),
+        NINE("IX",9),
         FIVE("V",5),
+        FOUR("IV",4),
         ONE("I",1);
 
         private final int decimal;
