@@ -1,7 +1,3 @@
-package KataRomanNumerals_Condurance;
-
-
-import KataRomanNumerals_Codurance.RomanNumeralGenerator;
 import org.junit.Test;
 
 import static org.hamcrest.core.Is.is;
