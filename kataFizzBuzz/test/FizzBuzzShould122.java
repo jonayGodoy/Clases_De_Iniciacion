@@ -4,11 +4,11 @@ import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
 
-public class FizzBuzzShould {
+public class FizzBuzzShould122 {
 
     @Test
     public void limit_100_positions() throws Exception {
-        FizzBuzz fizzBuzz = new FizzBuzz();
+        FizzBuzz1234 fizzBuzz = new FizzBuzz1234();
 
         try {
             fizzBuzz.generateNumber(101);
@@ -20,7 +20,7 @@ public class FizzBuzzShould {
 
     @Test
     public void first_position_return_1() throws Exception {
-        FizzBuzz fizzBuzz = new FizzBuzz();
+        FizzBuzz1234 fizzBuzz = new FizzBuzz1234();
         String number = fizzBuzz.generateNumber(1);
 
         Assert.assertThat(number, is("1"));
@@ -29,7 +29,7 @@ public class FizzBuzzShould {
 
     @Test
     public void first_position_return_2() throws Exception {
-        FizzBuzz fizzBuzz = new FizzBuzz();
+        FizzBuzz1234 fizzBuzz = new FizzBuzz1234();
         String number = fizzBuzz.generateNumber(2);
 
         Assert.assertThat(number, is("2"));
@@ -37,7 +37,7 @@ public class FizzBuzzShould {
 
     @Test
     public void first_position_return_4() throws Exception {
-        FizzBuzz fizzBuzz = new FizzBuzz();
+        FizzBuzz1234 fizzBuzz = new FizzBuzz1234();
         String number = fizzBuzz.generateNumber(4);
 
         Assert.assertThat(number, is("4"));
@@ -45,7 +45,7 @@ public class FizzBuzzShould {
 
     @Test
     public void third_position_return_FIZZ() throws Exception {
-        FizzBuzz fizzBuzz = new FizzBuzz();
+        FizzBuzz1234 fizzBuzz = new FizzBuzz1234();
         String number = fizzBuzz.generateNumber(3);
 
         Assert.assertThat(number, is("FIZZ"));
@@ -53,7 +53,7 @@ public class FizzBuzzShould {
 
     @Test
     public void sixth_position_return_FIZZ() throws Exception {
-        FizzBuzz fizzBuzz = new FizzBuzz();
+        FizzBuzz1234 fizzBuzz = new FizzBuzz1234();
         String number = fizzBuzz.generateNumber(6);
 
         Assert.assertThat(number, is("FIZZ"));
@@ -61,7 +61,7 @@ public class FizzBuzzShould {
 
     @Test
     public void nineth_position_return_FIZZ() throws Exception {
-        FizzBuzz fizzBuzz = new FizzBuzz();
+        FizzBuzz1234 fizzBuzz = new FizzBuzz1234();
         String number = fizzBuzz.generateNumber(9);
 
         Assert.assertThat(number, is("FIZZ"));

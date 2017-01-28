@@ -1,12 +1,12 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class FizzBuzz {
+public class FizzBuzz1234 {
 
 
     private String[] listNumber;
 
-    public FizzBuzz() {
+    public FizzBuzz1234() {
         this.listNumber = new String[100];
         this.generatePositions();
     }
