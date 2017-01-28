@@ -1,14 +1,42 @@
 
 public class FizzBuzz {
-    public int getPosition(int number) {
 
-        if (number==1){
-            return 1;
-        }else if (number==2){
-            return 2;
-        }else if (number==4){
-            return 4;
+    String [] listPosition;
+
+    public FizzBuzz() {
+        this.listPosition = new String[100];
+        generateArray();
+    }
+
+    private void generateArray(){
+        for(int i = 0; i < this.listPosition.length; i++){
+            this.listPosition[i] = String.valueOf(i);
         }
-        return 0;
+    }
+
+    public String getPosition(int number) {
+
+
+
+        if ((isBuzz(number)) && (isFizz(number))){
+            return "FizzBuzz";
+        }
+        if (isBuzz(number)){
+            return "Buzz";
+        }
+        if(isFizz(number)){
+            return "Fizz";
+        }
+
+
+        return this.listPosition[number];
+    }
+
+    private boolean isFizz(int number) {
+        return number%3==0 || String.valueOf(number).contains("3");
+    }
+
+    private boolean isBuzz(int number) {
+        return number%5==0 || String.valueOf(number).contains("5");
     }
 }
