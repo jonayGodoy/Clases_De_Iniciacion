@@ -49,6 +49,22 @@ public class FizzBuzzShould {
         String number = fizzBuzz.generateNumber(3);
 
         Assert.assertThat(number, is("FIZZ"));
-
     }
+
+    @Test
+    public void sixth_position_return_FIZZ() throws Exception {
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        String number = fizzBuzz.generateNumber(6);
+
+        Assert.assertThat(number, is("FIZZ"));
+    }
+
+    @Test
+    public void nineth_position_return_FIZZ() throws Exception {
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        String number = fizzBuzz.generateNumber(9);
+
+        Assert.assertThat(number, is("FIZZ"));
+    }
+
 }
