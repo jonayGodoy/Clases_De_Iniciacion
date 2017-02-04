@@ -1,16 +1,16 @@
 public class Password {
 
     public boolean validate(String pass) {
+        return greaterThan6(pass) && hasUpperCase(pass);
+    }
 
-        if (greaterThan6(pass)) {
-            String aux = pass.toUpperCase();
-            for(int i =0 ; i < pass.length(); i++){
-                if(aux.charAt(i) == pass.charAt(i)){
-                    return true;
-                }
+    private boolean hasUpperCase(String pass) {
+        String aux = pass.toUpperCase();
+        for(int i =0 ; i < pass.length(); i++){
+            if(aux.charAt(i) == pass.charAt(i)){
+                return true;
             }
         }
-
         return false;
     }
 
