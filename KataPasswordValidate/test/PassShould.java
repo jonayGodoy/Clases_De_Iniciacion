@@ -4,7 +4,7 @@ import org.junit.Test;
 public class PassShould {
 
     @Test
-    public void passwordIsCorrect() throws Exception {
+    public void  ssss() throws Exception {
         Password pwd = new Password();
         boolean  isGreater = pwd.validate("xxxxxxAb_1");
 

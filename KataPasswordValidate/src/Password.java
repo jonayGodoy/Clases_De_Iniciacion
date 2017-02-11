@@ -11,7 +11,7 @@ public class Password {
                 return true;
             }
         }
-        return false;
+         return false;
     }
 
     private boolean greaterThan6(String pass) {
