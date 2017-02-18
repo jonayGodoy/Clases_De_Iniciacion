@@ -1,6 +1,4 @@
-/**
- * Created by Usuario on 11/02/2017.
- */
+
 public class Conjured extends Item{
     public Conjured(String name, int sellIn, int quality) {
         super(name, sellIn, quality);
