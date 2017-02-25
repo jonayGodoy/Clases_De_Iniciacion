@@ -1,9 +1,9 @@
 
-public class FizzBuzz {
+public class FizzBuzzDirect {
 
     String [] listPosition;
 
-    public FizzBuzz() {
+    public FizzBuzzDirect() {
         this.listPosition = new String[100];
         generateArray();
     }
@@ -19,7 +19,7 @@ public class FizzBuzz {
 
 
         if ((isBuzz(number)) && (isFizz(number))){
-            return "FizzBuzz";
+            return "FizzBuzzDirect";
         }
         if (isBuzz(number)){
             return "Buzz";
